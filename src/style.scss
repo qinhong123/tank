@@ -1,0 +1,21 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	#app {
+		position: relative;
+		background-color: #000;
+		background-image: url('./static/images/cover/cover.png');
+		background-size: cover;
+		background-position: center;
+		cursor: pointer;
+		border: 10px solid #333;
+		box-sizing: content-box;
+		canvas {
+			position: absolute;
+		}
+	}
+}
