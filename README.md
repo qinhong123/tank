@@ -21,3 +21,12 @@ src/ 项目主文件
 /src/app.ts 主文件
 
 /src/main.ts 入口文件
+
+#### 2、pnpm管理工具
+
+项目使用pnpm包管理工具
+
+项目运行：pnpm dev
+
+项目编译 :  pnpm run build
+详细请看 package.json 文件
